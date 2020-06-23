@@ -1,3 +1,9 @@
+div {
+    margin: 10px;
+}
+
+
+/*Circle to Sqaure, color change*/
 #squ-circ-rot-loading {
     background-color: red;
     width: 50px;
@@ -34,4 +40,30 @@
         border-radius: 0%;
     }
     
+}
+
+
+
+/* Circle sliding left and right*/
+#circ-slide-h {
+    background-color: #555555;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: circ-slide-h;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes circ-slide-h {
+    0% {
+        left: 0px
+    }
+    50% {
+        left: 50px;
+    }
+    100% {
+        left: 0px;
+    }
 }
