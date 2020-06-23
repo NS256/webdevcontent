@@ -1,2 +1,3 @@
 # webdevcontent
-Content to be used for front end web development
+
+This repository contains a list of the features I have built for use in front end web development.
